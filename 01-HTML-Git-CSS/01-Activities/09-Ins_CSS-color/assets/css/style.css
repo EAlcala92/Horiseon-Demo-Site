@@ -17,7 +17,7 @@
   background-color: #ffa500;
 }
 
-#box-yellow {
+.box-yellow {
   /* Uses predefined colors to define color */
   color: purple;
   background-color: yellow;
