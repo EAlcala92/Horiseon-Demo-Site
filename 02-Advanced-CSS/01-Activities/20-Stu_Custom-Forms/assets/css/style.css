@@ -101,6 +101,14 @@ select {
   max-width: 100%;
 }
 
+.text-input:hover{
+  border-right-width: 5px;
+}
+
+.text-input:placeholder-shown{
+  border-style: dashed;
+}
+
 .text-input, select {
   padding: 1%;
   outline: none;

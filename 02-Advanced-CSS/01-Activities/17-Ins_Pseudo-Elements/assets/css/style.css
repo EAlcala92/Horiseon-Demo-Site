@@ -22,7 +22,7 @@ h1::after {
   font-family: Impact;
   content: 'Pseudo Elements';
   color: #8ac4ff;
-  margin-left: 5px;
+  margin-left: 25px;
 }
 
 h2 {

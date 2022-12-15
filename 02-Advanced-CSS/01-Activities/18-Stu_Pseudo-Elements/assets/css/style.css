@@ -60,8 +60,25 @@ article p {
 }
 
 /* TODO: Style the term/phrase - underline, black text, grab cursor */
+span[my-attr]{
+  position: relative;
+  text-decoration: underline;
+  color: #aaa;
+  cursor: grab;
+}
 
 /* TODO: Position tooltip above the term/phrase, same color as header and nav links, no border-radius, smaller font size */
+span[my-attr]:hover::after{
+  content: attr(my-attr);
+  position: absolute;
+  left: 0px;
+  bottom: 50px;
+  min-width: 250px;
+  border: 1px #aaa solid;
+  background-color: #13293d;
+  padding: 12px;
+  z-index: 1;
+}
 
 aside {
   width: 25%;
