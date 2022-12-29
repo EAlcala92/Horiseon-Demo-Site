@@ -16,7 +16,9 @@ isEqual(10, 10);
 // Refer to sample functions as needed!
 
 // TODO: Call the isEqual function so that it logs "They are equal in value"
+isEqual("10", 10);
 
 // TODO: Rewrite isEqual as a function expression called 'isEqualTakeTwo`
-
+var isEqualTakeTwo= isEqual(x,y);
 // TODO: Call the isEqualTakeTwo function so that it logs "They are not equal"
+isEqualTakeTwo(10, true);
